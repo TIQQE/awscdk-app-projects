@@ -1,8 +1,9 @@
 {
-  "name": "awscdk-app-projects",
+  "name": "@TIQQE/awscdk-app-projects",
+  "description": "Collection of project types for setting up AWS CDK-based apps with Typescript",
   "repository": {
     "type": "git",
-    "url": "git@github-as-eriklztiqqe:TIQQE/awscdk-app-projects.git"
+    "url": "git@github.com:TIQQE/awscdk-app-projects.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",
@@ -28,13 +29,13 @@
     "projen": "npx projen"
   },
   "author": {
-    "name": "Erik Lundevall Zara",
-    "email": "45368867+eriklz@users.noreply.github.com",
+    "name": "Erik Lundevall-Zara",
+    "email": "erik.lundevall@tiqqe.com",
     "organization": false
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
-    "@types/node": "^10.17.0",
+    "@types/node": "^14.15.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "eslint": "^7.32.0",
@@ -54,9 +55,18 @@
     "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   },
+  "peerDependencies": {
+    "projen": "^0.27.42"
+  },
   "bundledDependencies": [],
+  "engines": {
+    "node": ">= 14.15.0"
+  },
   "main": "lib/index.js",
-  "license": "Apache-2.0",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
