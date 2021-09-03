@@ -4,7 +4,7 @@ const project = new JsiiProject({
   authorAddress: 'erik.lundevall@tiqqe.com',
   defaultReleaseBranch: 'main',
   name: 'awscdk-app-projects',
-  packageName: '@TIQQE/awscdk-app-projects',
+  packageName: '@tiqqe/awscdk-app-projects',
   repositoryUrl: 'git@github.com:TIQQE/awscdk-app-projects.git',
   githubOptions: {
     mergify: false,
@@ -18,6 +18,7 @@ const project = new JsiiProject({
   ],
   minNodeVersion: '14.15.0',
   npmAccess: NpmAccess.PUBLIC,
+  npmRegistryUrl: 'https://npm.pkg.github.com',
   description: 'Collection of project types for setting up AWS CDK-based apps with Typescript',
 });
 project.synth();
