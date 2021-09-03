@@ -3,19 +3,19 @@
 
 ## Structs <a name="Structs"></a>
 
-### AwsCdkSimpleTsAppOptions <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions"></a>
+### AwsCdkSimpleTsAppOptions <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions"></a>
 
 Options for AwsCdkSimpleAppTs.
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { AwsCdkSimpleTsAppOptions } from '@TIQQE/awscdk-app-projects'
+import { AwsCdkSimpleTsAppOptions } from '@tiqqe/awscdk-app-projects'
 
 const awsCdkSimpleTsAppOptions: AwsCdkSimpleTsAppOptions = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.name"></a>
 
 - *Type:* `string`
 - *Default:* $BASEDIR
@@ -24,7 +24,7 @@ This is the name of your project.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.logging"></a>
 
 - *Type:* [`projen.LoggerOptions`](#projen.LoggerOptions)
 - *Default:* {}
@@ -33,7 +33,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.outdir"></a>
 
 - *Type:* `string`
 - *Default:* "."
@@ -48,7 +48,7 @@ sub-projects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.parent"></a>
 
 - *Type:* [`projen.Project`](#projen.Project)
 
@@ -56,7 +56,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJson"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -65,7 +65,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJsonOptions"></a>
 
 - *Type:* [`projen.json.ProjenrcOptions`](#projen.json.ProjenrcOptions)
 - *Default:* default options
@@ -74,7 +74,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoApproveOptions"></a>
 
 - *Type:* [`projen.github.AutoApproveOptions`](#projen.github.AutoApproveOptions)
 - *Default:* auto approve is disabled
@@ -83,7 +83,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoMergeOptions"></a>
 
 - *Type:* [`projen.github.AutoMergeOptions`](#projen.github.AutoMergeOptions)
 - *Default:* see defaults in `AutoMergeOptions`
@@ -95,7 +95,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.clobber"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -104,7 +104,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.devContainer"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -113,7 +113,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.github"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -124,7 +124,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.githubOptions"></a>
 
 - *Type:* [`projen.github.GitHubOptions`](#projen.github.GitHubOptions)
 - *Default:* see GitHubOptions
@@ -133,7 +133,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.gitpod"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -142,7 +142,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -153,7 +153,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -164,7 +164,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.readme"></a>
 
 - *Type:* [`projen.SampleReadmeProps`](#projen.SampleReadmeProps)
 - *Default:* { filename: 'README.md', contents: '# replace this' }
@@ -173,7 +173,7 @@ The README setup.
 
 ---
 
-##### `stale`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.stale"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -184,7 +184,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.staleOptions"></a>
 
 - *Type:* [`projen.github.StaleOptions`](#projen.github.StaleOptions)
 - *Default:* see defaults in `StaleOptions`
@@ -195,7 +195,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.vscode"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -206,7 +206,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `allowLibraryDependencies`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.allowLibraryDependencies"></a>
+##### `allowLibraryDependencies`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.allowLibraryDependencies"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -218,7 +218,7 @@ for specifying these.
 
 ---
 
-##### `authorEmail`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorEmail"></a>
+##### `authorEmail`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorEmail"></a>
 
 - *Type:* `string`
 
@@ -226,7 +226,7 @@ Author's e-mail.
 
 ---
 
-##### `authorName`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorName"></a>
+##### `authorName`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorName"></a>
 
 - *Type:* `string`
 
@@ -234,7 +234,7 @@ Author's name.
 
 ---
 
-##### `authorOrganization`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorOrganization"></a>
+##### `authorOrganization`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorOrganization"></a>
 
 - *Type:* `boolean`
 
@@ -242,7 +242,7 @@ Author's Organization.
 
 ---
 
-##### `authorUrl`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorUrl"></a>
+##### `authorUrl`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.authorUrl"></a>
 
 - *Type:* `string`
 
@@ -250,7 +250,7 @@ Author's URL / Website.
 
 ---
 
-##### `autoDetectBin`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoDetectBin"></a>
+##### `autoDetectBin`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoDetectBin"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -259,7 +259,7 @@ Automatically add all executables under the `bin` directory to your `package.jso
 
 ---
 
-##### `bin`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.bin"></a>
+##### `bin`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.bin"></a>
 
 - *Type:* {[ key: string ]: `string`}
 
@@ -271,7 +271,7 @@ executable file under `bin` will automatically be added to this section.
 
 ---
 
-##### `bundledDeps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.bundledDeps"></a>
+##### `bundledDeps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.bundledDeps"></a>
 
 - *Type:* `string`[]
 
@@ -290,7 +290,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.deps"></a>
 
 - *Type:* `string`[]
 - *Default:* []
@@ -306,7 +306,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.description"></a>
 
 - *Type:* `string`
 
@@ -317,7 +317,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-description
 
 ---
 
-##### `devDeps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.devDeps"></a>
+##### `devDeps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.devDeps"></a>
 
 - *Type:* `string`[]
 - *Default:* []
@@ -337,7 +337,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `entrypoint`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.entrypoint"></a>
+##### `entrypoint`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.entrypoint"></a>
 
 - *Type:* `string`
 - *Default:* "lib/index.js"
@@ -348,7 +348,7 @@ Set to an empty string to not include `main` in your package.json
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.homepage"></a>
 
 - *Type:* `string`
 
@@ -356,7 +356,7 @@ Package's Homepage / Website.
 
 ---
 
-##### `keywords`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.keywords"></a>
+##### `keywords`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.keywords"></a>
 
 - *Type:* `string`[]
 
@@ -364,7 +364,7 @@ Keywords to include in `package.json`.
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.license"></a>
 
 - *Type:* `string`
 - *Default:* "Apache-2.0"
@@ -376,7 +376,7 @@ Use the `licensed` option if you want to no license to be specified.
 
 ---
 
-##### `licensed`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.licensed"></a>
+##### `licensed`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.licensed"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -385,7 +385,7 @@ Indicates if a license should be added.
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.maxNodeVersion"></a>
 
 - *Type:* `string`
 - *Default:* no max
@@ -394,7 +394,7 @@ Minimum node.js version to require via `engines` (inclusive).
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.minNodeVersion"></a>
 
 - *Type:* `string`
 - *Default:* no "engines" specified
@@ -403,7 +403,7 @@ Minimum Node.js version to require via package.json `engines` (inclusive).
 
 ---
 
-##### `npmAccess`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmAccess"></a>
+##### `npmAccess`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmAccess"></a>
 
 - *Type:* [`projen.NpmAccess`](#projen.NpmAccess)
 - *Default:* for scoped packages (e.g. `foo@bar`), the default is
@@ -414,7 +414,7 @@ Access level of the npm package.
 
 ---
 
-##### `npmDistTag`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmDistTag"></a>
+##### `npmDistTag`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmDistTag"></a>
 
 - *Type:* `string`
 - *Default:* "latest"
@@ -434,7 +434,7 @@ The `next` tag is used by some projects to identify the upcoming version.
 
 ---
 
-##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmRegistry"></a>
+##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmRegistry"></a>
 
 - *Deprecated:* use `npmRegistryUrl` instead
 
@@ -446,7 +446,7 @@ Cannot be set together with `npmRegistryUrl`.
 
 ---
 
-##### `npmRegistryUrl`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmRegistryUrl"></a>
+##### `npmRegistryUrl`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmRegistryUrl"></a>
 
 - *Type:* `string`
 - *Default:* "https://registry.npmjs.org"
@@ -457,7 +457,7 @@ Must be a URL (e.g. start with "https://" or "http://")
 
 ---
 
-##### `npmTokenSecret`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmTokenSecret"></a>
+##### `npmTokenSecret`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmTokenSecret"></a>
 
 - *Type:* `string`
 - *Default:* "NPM_TOKEN"
@@ -466,7 +466,7 @@ GitHub secret which contains the NPM token to use when publishing packages.
 
 ---
 
-##### `packageManager`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.packageManager"></a>
+##### `packageManager`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.packageManager"></a>
 
 - *Type:* [`projen.NodePackageManager`](#projen.NodePackageManager)
 - *Default:* NodePackageManager.YARN
@@ -475,7 +475,7 @@ The Node Package Manager used to execute scripts.
 
 ---
 
-##### `packageName`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.packageName"></a>
+##### `packageName`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.packageName"></a>
 
 - *Type:* `string`
 - *Default:* defaults to project name
@@ -484,7 +484,7 @@ The "name" in package.json.
 
 ---
 
-##### `peerDependencyOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.peerDependencyOptions"></a>
+##### `peerDependencyOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.peerDependencyOptions"></a>
 
 - *Type:* [`projen.PeerDependencyOptions`](#projen.PeerDependencyOptions)
 
@@ -492,7 +492,7 @@ Options for `peerDeps`.
 
 ---
 
-##### `peerDeps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.peerDeps"></a>
+##### `peerDeps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.peerDeps"></a>
 
 - *Type:* `string`[]
 - *Default:* []
@@ -515,7 +515,7 @@ test your module against the lowest peer version required.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenCommand"></a>
 
 - *Type:* `string`
 - *Default:* "npx projen"
@@ -526,7 +526,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `repository`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.repository"></a>
+##### `repository`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.repository"></a>
 
 - *Type:* `string`
 
@@ -536,7 +536,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-repository
 
 ---
 
-##### `repositoryDirectory`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.repositoryDirectory"></a>
+##### `repositoryDirectory`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.repositoryDirectory"></a>
 
 - *Type:* `string`
 
@@ -544,7 +544,7 @@ If the package.json for your package is not in the root directory (for example i
 
 ---
 
-##### `scripts`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.scripts"></a>
+##### `scripts`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.scripts"></a>
 
 - *Type:* {[ key: string ]: `string`}
 - *Default:* {}
@@ -556,7 +556,7 @@ the standard script will be overwritten.
 
 ---
 
-##### `stability`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.stability"></a>
+##### `stability`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.stability"></a>
 
 - *Type:* `string`
 
@@ -564,7 +564,7 @@ Package's Stability.
 
 ---
 
-##### `antitamper`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.antitamper"></a>
+##### `antitamper`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.antitamper"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -573,7 +573,7 @@ Checks that after build there are no modified files on git.
 
 ---
 
-##### `artifactsDirectory`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.artifactsDirectory"></a>
 
 - *Type:* `string`
 - *Default:* "dist"
@@ -582,7 +582,7 @@ A directory which will contain artifacts to be published to npm.
 
 ---
 
-##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.jsiiReleaseVersion"></a>
+##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.jsiiReleaseVersion"></a>
 
 - *Type:* `string`
 - *Default:* "latest"
@@ -591,7 +591,7 @@ Version requirement of `jsii-release` which is used to publish modules to npm.
 
 ---
 
-##### `majorVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.majorVersion"></a>
+##### `majorVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.majorVersion"></a>
 
 - *Type:* `number`
 - *Default:* Major version is not enforced.
@@ -603,7 +603,7 @@ If not specified, we bump the global latest version.
 
 ---
 
-##### `postBuildSteps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.postBuildSteps"></a>
+##### `postBuildSteps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.postBuildSteps"></a>
 
 - *Type:* [`projen.github.workflows.JobStep`](#projen.github.workflows.JobStep)[]
 - *Default:* []
@@ -612,7 +612,7 @@ Steps to execute after build as part of the release workflow.
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.prerelease"></a>
 
 - *Type:* `string`
 - *Default:* normal semantic versions
@@ -621,7 +621,7 @@ Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pr
 
 ---
 
-##### `releaseBranches`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseBranches"></a>
+##### `releaseBranches`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseBranches"></a>
 
 - *Type:* {[ key: string ]: [`projen.release.BranchOptions`](#projen.release.BranchOptions)}
 - *Default:* no additional branches are used for release. you can use
@@ -638,7 +638,7 @@ be provided for the default branch.
 
 ---
 
-##### `releaseEveryCommit`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseEveryCommit"></a>
+##### `releaseEveryCommit`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseEveryCommit"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -647,7 +647,7 @@ Automatically release new versions every commit to one of branches in `releaseBr
 
 ---
 
-##### `releaseSchedule`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseSchedule"></a>
+##### `releaseSchedule`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseSchedule"></a>
 
 - *Type:* `string`
 - *Default:* no scheduled releases
@@ -656,7 +656,7 @@ CRON schedule to trigger new releases.
 
 ---
 
-##### `releaseWorkflowName`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseWorkflowName"></a>
+##### `releaseWorkflowName`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseWorkflowName"></a>
 
 - *Type:* `string`
 - *Default:* "Release"
@@ -665,7 +665,7 @@ The name of the default release workflow.
 
 ---
 
-##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseWorkflowSetupSteps"></a>
+##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseWorkflowSetupSteps"></a>
 
 - *Type:* [`projen.github.workflows.JobStep`](#projen.github.workflows.JobStep)[]
 
@@ -673,7 +673,7 @@ A set of workflow steps to execute in order to setup the workflow container.
 
 ---
 
-##### `workflowContainerImage`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.workflowContainerImage"></a>
+##### `workflowContainerImage`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.workflowContainerImage"></a>
 
 - *Type:* `string`
 - *Default:* default image
@@ -682,7 +682,7 @@ Container image to use for GitHub workflows.
 
 ---
 
-##### `defaultReleaseBranch`<sup>Required</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.defaultReleaseBranch"></a>
+##### `defaultReleaseBranch`<sup>Required</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.defaultReleaseBranch"></a>
 
 - *Type:* `string`
 - *Default:* "main"
@@ -691,7 +691,7 @@ The name of the main release branch.
 
 ---
 
-##### `autoApproveProjenUpgrades`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoApproveProjenUpgrades"></a>
+##### `autoApproveProjenUpgrades`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoApproveProjenUpgrades"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -702,7 +702,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `autoApproveUpgrades`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoApproveUpgrades"></a>
+##### `autoApproveUpgrades`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.autoApproveUpgrades"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -713,7 +713,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.buildWorkflow"></a>
 
 - *Type:* `boolean`
 - *Default:* true if not a subproject
@@ -722,7 +722,7 @@ Define a GitHub workflow for building PRs.
 
 ---
 
-##### `codeCov`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.codeCov"></a>
+##### `codeCov`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.codeCov"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -731,7 +731,7 @@ Define a GitHub workflow step for sending code coverage metrics to https://codec
 
 ---
 
-##### `codeCovTokenSecret`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.codeCovTokenSecret"></a>
+##### `codeCovTokenSecret`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.codeCovTokenSecret"></a>
 
 - *Type:* `string`
 - *Default:* if this option is not specified, only public repositories are supported
@@ -740,7 +740,7 @@ Define the secret name for a specified https://codecov.io/ token A secret is req
 
 ---
 
-##### `copyrightOwner`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.copyrightOwner"></a>
+##### `copyrightOwner`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.copyrightOwner"></a>
 
 - *Type:* `string`
 - *Default:* defaults to the value of authorName or "" if `authorName` is undefined.
@@ -749,7 +749,7 @@ License copyright owner.
 
 ---
 
-##### `copyrightPeriod`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.copyrightPeriod"></a>
+##### `copyrightPeriod`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.copyrightPeriod"></a>
 
 - *Type:* `string`
 - *Default:* current year
@@ -758,7 +758,7 @@ The copyright years to put in the LICENSE file.
 
 ---
 
-##### ~~`dependabot`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.dependabot"></a>
+##### ~~`dependabot`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.dependabot"></a>
 
 - *Deprecated:* - use `depsUpgrade: DependenciesUpgradeMechanism.dependabot()`
 
@@ -769,7 +769,7 @@ Include dependabot configuration.
 
 ---
 
-##### ~~`dependabotOptions`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.dependabotOptions"></a>
+##### ~~`dependabotOptions`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.dependabotOptions"></a>
 
 - *Deprecated:* - use `depsUpgrade: DependenciesUpgradeMechanism.dependabot()`
 
@@ -780,7 +780,7 @@ Options for dependabot.
 
 ---
 
-##### `depsUpgrade`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.depsUpgrade"></a>
+##### `depsUpgrade`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.depsUpgrade"></a>
 
 - *Type:* [`projen.DependenciesUpgradeMechanism`](#projen.DependenciesUpgradeMechanism)
 - *Default:* DependenciesUpgradeMechanism.dependabot if dependabot is true, otherwise a DependenciesUpgradeMechanism.githubWorkflow configured from other passed-in NodeProjectOptions
@@ -789,7 +789,7 @@ How to handle dependency upgrades.
 
 ---
 
-##### `gitignore`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.gitignore"></a>
+##### `gitignore`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.gitignore"></a>
 
 - *Type:* `string`[]
 
@@ -797,7 +797,7 @@ Additional entries to .gitignore.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.jest"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -806,7 +806,7 @@ Setup jest unit tests.
 
 ---
 
-##### `jestOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.jestOptions"></a>
+##### `jestOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.jestOptions"></a>
 
 - *Type:* [`projen.JestOptions`](#projen.JestOptions)
 - *Default:* default options
@@ -815,7 +815,7 @@ Jest options.
 
 ---
 
-##### `mergifyOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.mergifyOptions"></a>
+##### `mergifyOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.mergifyOptions"></a>
 
 - *Type:* [`projen.github.MergifyOptions`](#projen.github.MergifyOptions)
 - *Default:* default options
@@ -824,7 +824,7 @@ Options for mergify.
 
 ---
 
-##### `mutableBuild`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.mutableBuild"></a>
+##### `mutableBuild`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.mutableBuild"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -839,7 +839,7 @@ Implies that PR builds do not have anti-tamper checks.
 
 ---
 
-##### ~~`npmignore`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmignore"></a>
+##### ~~`npmignore`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmignore"></a>
 
 - *Deprecated:* - use `project.addPackageIgnore`
 
@@ -849,7 +849,7 @@ Additional entries to .npmignore.
 
 ---
 
-##### `npmignoreEnabled`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmignoreEnabled"></a>
+##### `npmignoreEnabled`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.npmignoreEnabled"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -858,7 +858,7 @@ Defines an .npmignore file. Normally this is only needed for libraries that are 
 
 ---
 
-##### `projenDevDependency`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenDevDependency"></a>
+##### `projenDevDependency`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenDevDependency"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -867,7 +867,7 @@ Indicates of "projen" should be installed as a devDependency.
 
 ---
 
-##### `projenDuringBuild`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenDuringBuild"></a>
+##### `projenDuringBuild`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenDuringBuild"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -881,7 +881,7 @@ synthesized project files will be persisted.
 
 ---
 
-##### `projenrcJs`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJs"></a>
+##### `projenrcJs`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJs"></a>
 
 - *Type:* `boolean`
 - *Default:* true if projenrcJson is false
@@ -890,7 +890,7 @@ Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable
 
 ---
 
-##### `projenrcJsOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJsOptions"></a>
+##### `projenrcJsOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcJsOptions"></a>
 
 - *Type:* [`projen.javascript.ProjenrcOptions`](#projen.javascript.ProjenrcOptions)
 - *Default:* default options
@@ -899,7 +899,7 @@ Options for .projenrc.js.
 
 ---
 
-##### ~~`projenUpgradeAutoMerge`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenUpgradeAutoMerge"></a>
+##### ~~`projenUpgradeAutoMerge`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenUpgradeAutoMerge"></a>
 
 - *Deprecated:* use `autoApproveProjenUpgrades`.
 
@@ -912,7 +912,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `projenUpgradeSchedule`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenUpgradeSchedule"></a>
+##### `projenUpgradeSchedule`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenUpgradeSchedule"></a>
 
 - *Type:* `string`[]
 - *Default:* [ "0 6 * * *" ]
@@ -921,7 +921,7 @@ Customize the projenUpgrade schedule in cron expression.
 
 ---
 
-##### `projenUpgradeSecret`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenUpgradeSecret"></a>
+##### `projenUpgradeSecret`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenUpgradeSecret"></a>
 
 - *Type:* `string`
 - *Default:* no automatic projen upgrade pull requests
@@ -938,7 +938,7 @@ To create a personal access token see https://github.com/settings/tokens
 
 ---
 
-##### `projenVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenVersion"></a>
+##### `projenVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenVersion"></a>
 
 - *Type:* `string`
 - *Default:* Defaults to the latest version.
@@ -947,7 +947,7 @@ Version of projen to install.
 
 ---
 
-##### `pullRequestTemplate`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.pullRequestTemplate"></a>
+##### `pullRequestTemplate`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.pullRequestTemplate"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -956,7 +956,7 @@ Include a GitHub pull request template.
 
 ---
 
-##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.pullRequestTemplateContents"></a>
+##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.pullRequestTemplateContents"></a>
 
 - *Type:* `string`
 - *Default:* default content
@@ -965,7 +965,7 @@ The contents of the pull request template.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.release"></a>
 
 - *Type:* `boolean`
 - *Default:* true (false for subprojects)
@@ -974,7 +974,7 @@ Add release management to this project.
 
 ---
 
-##### `releaseToNpm`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseToNpm"></a>
+##### `releaseToNpm`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseToNpm"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -983,7 +983,7 @@ Automatically release to npm when new versions are introduced.
 
 ---
 
-##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseWorkflow"></a>
+##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.releaseWorkflow"></a>
 
 - *Deprecated:* see `release`.
 
@@ -994,7 +994,7 @@ DEPRECATED: renamed to `release`.
 
 ---
 
-##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.workflowBootstrapSteps"></a>
+##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.workflowBootstrapSteps"></a>
 
 - *Type:* `any`[]
 - *Default:* "yarn install --frozen-lockfile && yarn projen"
@@ -1003,7 +1003,7 @@ Workflow steps to use in order to bootstrap this repo.
 
 ---
 
-##### `workflowNodeVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.workflowNodeVersion"></a>
+##### `workflowNodeVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.workflowNodeVersion"></a>
 
 - *Type:* `string`
 - *Default:* same as `minNodeVersion`
@@ -1012,7 +1012,7 @@ The node version to use in GitHub workflows.
 
 ---
 
-##### `compileBeforeTest`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.compileBeforeTest"></a>
+##### `compileBeforeTest`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.compileBeforeTest"></a>
 
 - *Type:* `boolean`
 - *Default:* if `testdir` is under `src/**`, the default is `true`, otherwise the default is `false.
@@ -1021,7 +1021,7 @@ Compile the code before running tests.
 
 ---
 
-##### `disableTsconfig`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.disableTsconfig"></a>
+##### `disableTsconfig`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.disableTsconfig"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -1030,7 +1030,7 @@ Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.jso
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.docgen"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -1039,7 +1039,7 @@ Docgen by Typedoc.
 
 ---
 
-##### `docsDirectory`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.docsDirectory"></a>
 
 - *Type:* `string`
 - *Default:* "docs"
@@ -1048,7 +1048,7 @@ Docs directory.
 
 ---
 
-##### `entrypointTypes`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.entrypointTypes"></a>
+##### `entrypointTypes`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.entrypointTypes"></a>
 
 - *Type:* `string`
 - *Default:* .d.ts file derived from the project's entrypoint (usually lib/index.d.ts)
@@ -1057,7 +1057,7 @@ The .d.ts file that includes the type declarations for this module.
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.eslint"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -1066,7 +1066,7 @@ Setup eslint.
 
 ---
 
-##### `eslintOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.eslintOptions"></a>
+##### `eslintOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.eslintOptions"></a>
 
 - *Type:* [`projen.EslintOptions`](#projen.EslintOptions)
 - *Default:* opinionated default options
@@ -1075,7 +1075,7 @@ Eslint options.
 
 ---
 
-##### `libdir`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.libdir"></a>
+##### `libdir`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.libdir"></a>
 
 - *Type:* `string`
 - *Default:* "lib"
@@ -1084,7 +1084,7 @@ Typescript  artifacts output directory.
 
 ---
 
-##### `package`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.package"></a>
+##### `package`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.package"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -1093,7 +1093,7 @@ Defines a `yarn package` command that will produce a tarball and place it under 
 
 ---
 
-##### `projenrcTs`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcTs"></a>
+##### `projenrcTs`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcTs"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -1102,7 +1102,7 @@ Use TypeScript for your projenrc file (`.projenrc.ts`).
 
 ---
 
-##### `projenrcTsOptions`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcTsOptions"></a>
+##### `projenrcTsOptions`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.projenrcTsOptions"></a>
 
 - *Type:* [`projen.typescript.ProjenrcOptions`](#projen.typescript.ProjenrcOptions)
 
@@ -1110,7 +1110,7 @@ Options for .projenrc.ts.
 
 ---
 
-##### `sampleCode`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.sampleCode"></a>
+##### `sampleCode`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.sampleCode"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -1119,7 +1119,7 @@ Generate one-time sample in `src/` and `test/` if there are no files there.
 
 ---
 
-##### `srcdir`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.srcdir"></a>
+##### `srcdir`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.srcdir"></a>
 
 - *Type:* `string`
 - *Default:* "src"
@@ -1128,7 +1128,7 @@ Typescript sources directory.
 
 ---
 
-##### `testdir`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.testdir"></a>
+##### `testdir`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.testdir"></a>
 
 - *Type:* `string`
 - *Default:* "test"
@@ -1142,7 +1142,7 @@ compile the code in-memory.
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.tsconfig"></a>
 
 - *Type:* [`projen.TypescriptConfigOptions`](#projen.TypescriptConfigOptions)
 
@@ -1150,7 +1150,7 @@ Custom TSConfig.
 
 ---
 
-##### `typescriptVersion`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.typescriptVersion"></a>
+##### `typescriptVersion`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.typescriptVersion"></a>
 
 - *Type:* `string`
 - *Default:* "latest"
@@ -1162,7 +1162,7 @@ same minor, so we recommend using a `~` dependency (e.g. `~1.2.3`).
 
 ---
 
-##### `cdkVersion`<sup>Required</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.cdkVersion"></a>
+##### `cdkVersion`<sup>Required</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.cdkVersion"></a>
 
 - *Type:* `string`
 - *Default:* "1.95.2"
@@ -1171,7 +1171,7 @@ AWS CDK version to use.
 
 ---
 
-##### `appEntrypoint`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.appEntrypoint"></a>
+##### `appEntrypoint`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.appEntrypoint"></a>
 
 - *Type:* `string`
 - *Default:* "main.ts"
@@ -1180,7 +1180,7 @@ The CDK app's entrypoint (relative to the source directory, which is "src" by de
 
 ---
 
-##### `cdkDependencies`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.cdkDependencies"></a>
+##### `cdkDependencies`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.cdkDependencies"></a>
 
 - *Type:* `string`[]
 
@@ -1188,7 +1188,7 @@ Which AWS CDK modules (those that start with "@aws-cdk/") this app uses.
 
 ---
 
-##### `cdkVersionPinning`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.cdkVersionPinning"></a>
+##### `cdkVersionPinning`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.cdkVersionPinning"></a>
 
 - *Type:* `boolean`
 - *Default:* false
@@ -1200,7 +1200,7 @@ If you use experimental features this will let you define the moment you include
 
 ---
 
-##### `context`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.context"></a>
+##### `context`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.context"></a>
 
 - *Type:* {[ key: string ]: `string`}
 
@@ -1208,7 +1208,7 @@ Additional context to include in `cdk.json`.
 
 ---
 
-##### `requireApproval`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.requireApproval"></a>
+##### `requireApproval`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.requireApproval"></a>
 
 - *Type:* [`projen.CdkApprovalLevel`](#projen.CdkApprovalLevel)
 - *Default:* CdkApprovalLevel.BROADENING
@@ -1217,7 +1217,7 @@ To protect you against unintended changes that affect your security posture, the
 
 ---
 
-##### `closedSource`<sup>Optional</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.closedSource"></a>
+##### `closedSource`<sup>Optional</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions.property.closedSource"></a>
 
 - *Type:* `boolean`
 - *Default:* true
@@ -1231,21 +1231,21 @@ Changes default settings more suitable to closed source projects. The settings a
 
 ## Classes <a name="Classes"></a>
 
-### AwsCdkSimpleTsApp <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsApp"></a>
+### AwsCdkSimpleTsApp <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsApp"></a>
 
 Creates a simple sample AWS CDK App in Typescript.
 
-#### Initializer <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsApp.Initializer"></a>
+#### Initializer <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsApp.Initializer"></a>
 
 ```typescript
-import { AwsCdkSimpleTsApp } from '@TIQQE/awscdk-app-projects'
+import { AwsCdkSimpleTsApp } from '@tiqqe/awscdk-app-projects'
 
 new AwsCdkSimpleTsApp(options: AwsCdkSimpleTsAppOptions)
 ```
 
-##### `options`<sup>Required</sup> <a name="@TIQQE/awscdk-app-projects.AwsCdkSimpleTsApp.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="@tiqqe/awscdk-app-projects.AwsCdkSimpleTsApp.parameter.options"></a>
 
-- *Type:* [`@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions`](#@TIQQE/awscdk-app-projects.AwsCdkSimpleTsAppOptions)
+- *Type:* [`@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions`](#@tiqqe/awscdk-app-projects.AwsCdkSimpleTsAppOptions)
 
 ---
 
